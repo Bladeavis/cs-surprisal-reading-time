@@ -44,10 +44,7 @@ def add_cs_columns(df: pd.DataFrame, force: bool = False) -> pd.DataFrame:
 def report_switches_hidden_by_other(df: pd.DataFrame) -> None:
     """
     Nur Diagnose – verändert die Spalte CS nicht.
-
-    Zählt Sprachwechsel, die nicht als CS-Punkt erfasst werden, weil zwischen
-    den beiden Wörtern ein oder mehrere OTHER-Token stehen (z. B. "Hose , und").
-    Die Größenordnung dieses Effekts kann so in der Arbeit berichtet werden.
+    Zählt Sprachwechsel, die nicht als CS-Punkt erfasst werden.
     """
     if not {"ID", "LANG"}.issubset(df.columns):
         return
