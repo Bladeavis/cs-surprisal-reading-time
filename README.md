@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ```bash
 # 1. Korpus- und Ökonomieanalysen
-# (a_cs_features_tr.py überspringen, wenn CS_Punkte_TR.csv bereits existiert)
+# (a_cs_features_tr.py überspringen, wenn CS_Punkte_TR22.csv bereits existiert)
 python b_cs_corpus_overview_tr.py
 python c_cs_res_tr.py
 
