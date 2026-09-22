@@ -25,9 +25,9 @@ Die Skripte sind modular aufgebaut und werden in folgender Reihenfolge ausgefüh
 
 | Skript | Beschreibung | Eingabe → Ausgabe |
 |---|---|---|
-| `a_cs_features_tr.py` | Extrahiert Wort-/Silbenmerkmale und übersetzt CS-Wörter. ⚠️ Nicht erneut ausführen, wenn `CS_Punkte_TR.csv` bereits vorliegt. Online-Übersetzung mit `deep-translator`, kann lange dauern. | `TuGeBiC_Twitter_TRDE.csv` → `CS_Punkte_TR.csv` |
+| `a_cs_features_tr.py` | Extrahiert Wort-/Silbenmerkmale und übersetzt CS-Wörter. ⚠️ Nicht erneut ausführen, wenn `CS_Punkte_TR22.csv` bereits vorliegt. Online-Übersetzung mit `deep-translator`, kann lange dauern. | `TuGeBiC_Twitter_TRDE.csv` → `CS_Punkte_TR22.csv` |
 | `b_cs_corpus_overview_tr.py` | Korpusstatistiken (Tokens, POS, Sprachverteilungen). | `TuGeBiC_Twitter_TRDE.csv` → Statistiken |
-| `c_cs_res_tr.py` | Ökonomie- und Korrelationsanalyse. | `TuGeBiC_Twitter_TRDE.csv` + `CS_Punkte_TR.csv` → Ergebnisse/Grafiken |
+| `c_cs_res_tr.py` | Ökonomie- und Korrelationsanalyse. | `TuGeBiC_Twitter_TRDE.csv` + `CS_Punkte_TR22.csv` → Ergebnisse/Grafiken |
 | `d_clean_bspr_data.py` | Bereinigung und Vorverarbeitung der PCIbex-Lesezeitdaten. | `010826_results_prod.csv` + `word_cs.xlsx` → LMEM-Daten |
 | `f_xglm_564m_surprisal_values.py` | Berechnet Wort-Surprisal mit `facebook/xglm-564M`. | `word_cs.xlsx` → `small_surprisal_values.csv` |
 | `e_XGLM_surprisal_values.py` | Berechnet Wort-Surprisal mit `facebook/xglm-1.7B` (GPU empfohlen). | `word_cs.xlsx` → `surprisal_values.csv` |
