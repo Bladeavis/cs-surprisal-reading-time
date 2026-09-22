@@ -44,7 +44,7 @@ Die Skripte sind modular aufgebaut und werden in folgender Reihenfolge ausgefüh
 Die gesamte Analyse- und Modellierungspipeline wurde in **Google Colab** über das Notebook `BA_ALL_ANALYSE.ipynb` ausgeführt.
 
 ### Ausführung in Google Colab
-Das Jupyter-Notebook `BA_ALL_ANALYSE.ipynb` bündelt alle Schritte der Untersuchung (von der Korpus- und Ökonomieanalyse über Surprisal-Berechnungen mit XGLM bis hin zu den LMEM-Modellen) und kann direkt in Google Colab ausgeführt werden.
+Das Jupyter-Notebook `BA_ALL_ANALYSE.ipynb` bündelt alle Schritte der Untersuchung (von der Korpus- und Ökonomieanalyse über Surprisal-Berechnungen mit XGLM bis hin zu den LMEM-Modellen) und kann direkt in Google Colab ausgeführt werden. Für die vollständige Ausführung müssen die Dateien `TuGeBiC_Twitter_TRDE.csv`, `CS_Punkte_TR22.csv`, `010826_results_prod.csv` und `word_cs.xlsx` in das Notebook bzw. die Colab-Umgebung eingebunden werden, da diese als notwendige Eingabedateien für die Analysen dienen.
 
 ### Lokale Ausführung (Optional)
 Alternativ können die einzelnen modularen Python-Skripte lokal ausgeführt werden:
