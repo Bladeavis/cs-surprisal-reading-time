@@ -4,8 +4,7 @@ Einzelsatz-Grafik: LLM-Surprisal vs. menschliche Lesezeit
 
 Zeigt für einen Satz (item_order) je Wort das LLM-Surprisal als Balken und die
 mittlere First-Pass-Lesezeit der Versuchspersonen als Linie auf zweiter Achse;
-CS-Punkte sind farblich hervorgehoben. Dient in der Arbeit als konkretes
-Beispiel (Abschnitt 8.3).
+CS-Punkte sind farblich hervorgehoben.
 
 Eingabe : Bspr_result/main_analysis_with_surprisal_filtered.csv
           (Versuchsperson x Item x Wort, mit surprisal_raw,
